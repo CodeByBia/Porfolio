@@ -22,6 +22,7 @@
             <a href="#home" class="active">Home</a>
             <a href="#education">Education</a>
             <a href="#services">Services</a>
+            <a href="#testimonials">Projects</a>
             <a href="#contact">Contact</a>
             <a href="#jogo">Jogo</a>
         </nav>
@@ -110,12 +111,12 @@
 
         <section class="testimonials" id="testimonials">
             <div class="testimonials-box">
-                <h2 class="heading">Testimonials</h2>
+                <h2 class="heading">Projects</h2>
 
             <div class="wrapper">
                 <div class="testimonial-item">
-                    <img src="1.png" alt="">
-                    <h2>Fulano</h2>
+                    <img src="./imgs/azur.png" alt="">
+                    <h2>AZUR - FAP Softex</h2>
                     <div class="rating">
                         <i class='bx bxs-star' id="star"></i>
                         <i class='bx bxs-star' id="star"></i>
@@ -128,8 +129,8 @@
                 </div>
 
                 <div class="testimonial-item">
-                    <img src="2.png" alt="">
-                    <h2>Fulano</h2>
+                    <img src="./imgs/bookquest.png" alt="">
+                    <h2>BookQuest</h2>
                     <div class="rating">
                         <i class='bx bxs-star' id="star"></i>
                         <i class='bx bxs-star' id="star"></i>
@@ -141,9 +142,50 @@
                 </div>
 
                     <div class="testimonial-item">
-                        <img src="3
-                        .png" alt="">
-                        <h2>Fulano</h2>
+                        <img src="./imgs/crud.png" alt="">
+                        <h2>CRUD com JavaScript</h2>
+                        <div class="rating">
+                            <i class='bx bxs-star' id="star"></i>
+                            <i class='bx bxs-star' id="star"></i>
+                            <i class='bx bxs-star' id="star"></i>
+                            <i class='bx bxs-star' id="star"></i>
+                            <i class='bx bxs-star' id="star"></i>
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    </div>
+
+                    <div class="testimonial-item">
+                        <img src="./imgs/jogo.jpg" alt="">
+                        <h2>Lola & Lia</h2>
+                        <div class="rating">
+                            <i class='bx bxs-star' id="star"></i>
+                            <i class='bx bxs-star' id="star"></i>
+                            <i class='bx bxs-star' id="star"></i>
+                            <i class='bx bxs-star' id="star"></i>
+                            <i class='bx bxs-star' id="star"></i>
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    </div>
+
+                    <div class="testimonial-item">
+                        <img src="./imgs/hackaton.jpg" alt="">
+                        <h2>Hackatons</h2>
+                        <div class="rating">
+                            <i class='bx bxs-star' id="star"></i>
+                            <i class='bx bxs-star' id="star"></i>
+                            <i class='bx bxs-star' id="star"></i>
+                            <i class='bx bxs-star' id="star"></i>
+                            <i class='bx bxs-star' id="star"></i>
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    </div>
+
+                    <div class="testimonial-item">
+                        <img src="./imgs/voluntario.jpg" alt="">
+                        <h2>Voluntariado no RecnPlay</h2>
                         <div class="rating">
                             <i class='bx bxs-star' id="star"></i>
                             <i class='bx bxs-star' id="star"></i>
@@ -163,18 +205,22 @@
             <form action="">
                 <div class="input-group">
                     <div class="input-box">
-                        <input type="text" placeholder="Full Name">
-                        <input type="email" placeholder="Email">
+                        <input type="text" placeholder="Full Name" id="name" class="item">
+                        <div class="error-txt">Name can't be blank</div>
+                        <input type="email" placeholder="Email" id="email" class="item">
+                        <div class="error-txt">Email can't be blank</div>
                     </div>
                     <div class="input-box">
-                        <input type="number" placeholder="Phone Number">
-                        <input type="text" placeholder="Subject">
+                        <input type="number" placeholder="Phone Number" id="number" class="item">
+                        <div class="error-txt">Email can't be blank</div>
+                        <input type="text" placeholder="Subject" id="subject" class="item">
+                        <div class="error-txt">Email can't be blank</div>
                     </div>
                 </div>
 
                 <div class="input-group-2">
                     <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-                    <input type="submit" value="Send Message" class="btn">
+                    <input type="submit" value="Send Message" class="btn" id="message" class="item">
                 </div>
 
             </form>
@@ -188,28 +234,28 @@
             </div>
 
             <ul class="list">
+                
                 <li>
-                    <a href="#">FAQ</a>
+                    <a href="#home">Home</a>
                 </li>
 
                 <li>
-                    <a href="#">Services</a>
+                    <a href="#education">Education</a>
                 </li>
 
                 <li>
-                    <a href="#">About me</a>
+                    <a href="#services">Services</a>
+                </li>
+                <li>
+                    <a href="#testimonials">Projects</a>
                 </li>
 
                 <li>
-                    <a href="#">Contact</a>
+                    <a href="#contact">Contact</a>
                 </li>
 
                 <li>
-                    <a href="#">Projetos</a>
-                </li>
-
-                <li>
-                    <a href="#">Jogo</a>
+                    <a href="#jogo">Jogo</a>
                 </li>
 
             </ul>
@@ -217,5 +263,8 @@
                 Beatriz Martins | All rights Reserved
             </p>
         </footer>
+
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 </html>

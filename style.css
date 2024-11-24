@@ -219,7 +219,7 @@ section{
     content: "";
     position: absolute;
     width: 5px;
-    height: 40%;
+    height: 100%;
     background-color: var(--main-color);
     left: calc(50% - 1px);
   }
@@ -256,7 +256,7 @@ section{
 
 .timeline-date {
   font-size: 20px;
-  font-weight: 800;
+  font-weight: 700;
   color: white;
   margin: 6px 0 15px;
 }
@@ -278,7 +278,7 @@ section{
     font-size: 20px;
     color: white;
     margin: 0 0 10px;
-    font-weight: 300;
+    font-weight: 00;
 }
 .timeline-content p{
     color: white;
@@ -317,10 +317,10 @@ section{
   }
   
 .service-box:hover {
-    background: white;
     color: black;
-    border: 5px solid var(--main-color);
     transform: scale(1.03);
+    transform: translateY(-10px)scale(1.03);
+    box-shadow: 0 0 50px var(--main-color);
   }
 .services-box .service-info{
     display: flex;
@@ -333,17 +333,17 @@ section{
 }
 .service-info h4{ 
     font-size: 3rem;
-    font-weight: 800;
+    font-weight: 900;
     line-height: 2;
 }
 .service-info p{
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     font-weight: 500;
     max-height: 100px;
     line-height: 1.7;
     margin: auto;
+    color: white;
 }
-
 
 .testimonials{
    background: var(--second-bg-color); 
@@ -360,8 +360,8 @@ section{
 }
 .testimonials-box img {
     width: 30rem;
-    border-radius: 50%;
-    border: 3px solid var(--main-color);
+    height: 20rem;
+    border-radius: 10%;
     box-shadow: 0 0 25px var(--main-color);
 }
 .wrapper {
@@ -388,7 +388,7 @@ section{
 }
 .testimonial-item:hover {
     border: 3px solid var(--main-color);
-    tranSform: translateY(-10px)scale(1.03);
+    transform: translateY(-10px)scale(1.03);
     box-shadow: 0 0 50px var(--main-color);
 
 }
@@ -402,7 +402,6 @@ section{
     color: gold;
     font-size: 2rem;
 }
-
 
 .contact {
   background-color: var(--bg-color);
@@ -445,12 +444,77 @@ section{
     margin-top: 2rem;
   }
   
+.jogo {
+    background-color: var(--second-bg-color);
+    padding: 5rem 0;
+  }
+  
+.jogo h1 {
+    color: white;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: rem;
+    font-size: 6rem;
+  }
+  
+.jogo p {
+    color: var(--text-color);
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+.jogo .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+.jogo .container input {
+    padding: 2.5rem;
+    font-size: 1.8rem;
+    color: var(--text-color);
+    background: var(--second-bg-color);
+    border-radius: 2rem;
+    border: 2px solid var(--main-color);
+    width: 200px;
+    margin: 1.5rem 0;
+    text-align: center;
+  }
+  
+.jogo .container button {
+    padding: 1.5rem 3rem;
+    font-size: 1.8rem;
+    background: var(--main-color);
+    color: white;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 1.5rem 0;
+  }
+  
+.jogo .container button:hover {
+  transform: translateY(-10px)scale(1.03);
+  box-shadow: 0 0 50px var(--main-color);
+  }
+  
+  .jogo .container #resultado,
+  .jogo .container #tentativas {
+    color: var(--text-color);
+    font-size: 1.6rem;
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
 .footer {
     position: relative;
     bottom: 0;
     width: 100%;
     padding: 40px 0;
-    background-color: var(--second-bg-color);
+    background-color: black;
   }
   
 .footer .social {

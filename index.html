@@ -24,7 +24,7 @@
             <a href="#services">Services</a>
             <a href="#testimonials">Projects</a>
             <a href="#contact">Contact</a>
-            <a href="#jogo">Jogo</a>
+            <a href="jogo-senha.html">Jogo Senha</a>
         </nav>
     </header>
 
@@ -32,8 +32,7 @@
         <div class="home-content">
             <h1>Hi, It's <span>Bia</span></h1>
             <h3 class="text-animation">I'm a <span class="text-title">Web Developer</span></h3>
-            <p>Estudante de Sistemas para Internet, buscando integrar minha paixão por tecnologia e audiovisual.
-                Procuro explorar a narrativa visual e criar experiências interativas que unem esses dois mundos.
+            <p>Hey! I'm an Internet Systems student passionate about Design and Tech, excited to put my technical and social skills into practice!
             </p>
 
             <div class="social-icons">
@@ -59,30 +58,30 @@
 
             <div class="timeline-item">
                 <div class="timeline-dot"></div>
-                    <div class="timeline-date">2024</div>
+                    <div class="timeline-date">March/2024</div>
                     <div class="timeline-content">
-                        <h3>University</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut</p>
+                        <h3>Internet Systems</h3>
+                        <p>A 2.5-year undergraduate program at the Catholic University of Pernambuco, one of the most respected higher education institutions in the state. This course focuses on web development, software engineering, and digital solutions, preparing students to design, develop, and manage online systems. It combines technical expertise with hands-on projects to equip graduates with the skills needed for the fast-paced tech industry.</p>
                     </div>
                 
             </div>
 
             <div class="timeline-item">
                 <div class="timeline-dot"></div>
-                    <div class="timeline-date">2024</div>
+                    <div class="timeline-date">April/2024</div>
                     <div class="timeline-content">
-                        <h3>Course</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut</p>
+                        <h3>Technological Residency</h3>
+                        <p>Part of my undergraduate program, this practical course immerses students in real-world challenges from the tech industry every semester. It fosters close collaboration with some of the leading technology companies in the region, providing valuable experience and networking opportunities.</p>
                     </div>
                 
             </div>
 
             <div class="timeline-item">
                 <div class="timeline-dot"></div>
-                    <div class="timeline-date">2024</div>
+                    <div class="timeline-date">December/2024</div>
                     <div class="timeline-content">
-                        <h3>University</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut</p>
+                        <h3>Softex's Training Program</h3>
+                        <p>I completed Softex's Frontend Development with React course, part of the Accelerated Programming Training program. With 144 hours of in-person classes and 56 hours of additional content, the course emphasizes hands-on learning through real-world projects from actual companies, bridging the gap between classroom knowledge and industry demands.</p>
                     </div>
         </div>       
             </div>
@@ -93,14 +92,14 @@
                     <div class="service-box">
                         <div class="service-info">
                             <h4>UI Design</h4>
-                            <p>Apaixonada por UI/UX design, uso ferramentas como Figma e Canva para criar protótipos acessíveis e responsivos. Minha abordagem combina criatividade, atenção aos detalhes e empatia pelo usuário, resultando em plataformas amigáveis e responsivas que entregam experiências de alta qualidade para diferentes públicos.</p>
+                            <p>Passionate about UI/UX design, I use tools like Figma and Canva to create accessible and responsive prototypes. My approach blends creativity, attention to detail, and user empathy to develop user-friendly platforms that deliver high-quality experiences for diverse audiences.</p>
                         </div>
                     </div>
 
                     <div class="service-box">
                         <div class="service-info">
                             <h4>FrontEnd Developer</h4>
-                            <p>Depois de prototipar, transformo as ideias em código usando HTML, CSS, JavaScript e React. Em projetos da faculdade, pessoais e do curso, aplico essas habilidades técnicas para criar soluções bem estruturadas e alinhadas às necessidades dos usuários e o problema a ser solucionado. Faço uso de Git e GitHub para versionar e colaborar os projetos com a equipe, assegurando organização, eficiência e entregas de alto padrão.</p>
+                            <p>I turn ideas into code using HTML, CSS, JavaScript, and React. Through academic, personal, and course projects, I create user-focused solutions, leveraging Git and GitHub for version control and team collaboration to ensure well-structured, high-quality results.</p>
                         </div>
                     </div>
 
@@ -224,6 +223,21 @@
                 </div>
 
             </form>
+        </section>
+        
+        <section class="jogo" id="jogo">
+
+            <div class="container">
+                <h1>Jogo da senha</h1>
+                <p>Adivinhe o número secreto de 4 dígitos!</p>
+                <input type="text" id="inputNumeros" maxlength="4" placeholder="Digite seu palpite">
+                <button id="botaoEnviarNumeros">Adivinhar</button>
+                <button id="botaoResetar">Resetar jogo</button>
+                <button onclick="exibirSenha()">Mostrar Senha</button>
+                <div id="resultado"></div>
+                <div id="tentativas"></div>
+            </div>
+            
         </section>
 
         <footer class="footer">

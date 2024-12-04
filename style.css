@@ -382,9 +382,10 @@ section{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 1.5rem;
+    gap: 1.8rem;
     text-align: center;
     color: white;
+    line-height: 1.6; 
 }
 .testimonial-item:hover {
     border: 3px solid var(--main-color);
